@@ -8,7 +8,6 @@ Data = []
 
 class People(Resource):
     def get(self,name):
-        # print(self.name)
         for x in Data:
             if x['Data'] == name:
                 return x
